@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -13,14 +13,13 @@ body {
     margin: auto;
     overflow: hidden;
 }
-
-/* Header */
 .header {
-    background: linear-gradient(90deg, #3a3a3a, #1f1f1f);
+    background: url('Software engineer programmer aesthetic wallpaper.jpeg') center/cover no-repeat, linear-gradient(90deg, #3a3a3a, #1f1f1f);
     text-align: center;
     padding: 60px 0;
-    color: #fff;
+    color: #DDA0DD ;
 }
+
 .header h1 {
     font-size: 3rem;
     letter-spacing: 2px;
@@ -30,10 +29,9 @@ body {
 .header .tagline {
     margin: 10px 0;
     font-style: italic;
-    color: #aaa;
+    color: #000000;
 }
 
-/* Navigation */
 .nav {
     display: flex;
     justify-content: center;
@@ -60,18 +58,16 @@ body {
     width: 100%;
 }
 
-/* Section Styles */
 section {
     padding: 50px 0;
 }
 section h2 {
     text-align: center;
-    color: #007BFF;
+    color: #FFB6C1;
     font-size: 2rem;
     margin-bottom: 20px;
 }
 
-/* About Section */
 .about {
     background: #1c1c1c;
     text-align: center;
@@ -79,7 +75,6 @@ section h2 {
     padding: 30px;
 }
 
-/* Portfolio Section */
 .portfolio .projects {
     display: flex;
     justify-content: center;
@@ -101,7 +96,7 @@ section h2 {
 }
 .project h3 {
     margin: 0;
-    color: #f0f0f0;
+    color: #FFC0CB;
 }
 .project a {
     display: inline-block;
@@ -118,18 +113,16 @@ section h2 {
     color: #fff;
 }
 
-/* Contact Section */
 .contact {
     text-align: center;
 }
 .contact a {
-    color: #007BFF;
+    color:  #DDA0DD;
 }
 .contact a:hover {
     text-decoration: underline;
 }
 
-/* Footer */
 .footer {
     text-align: center;
     background: #1f1f1f;
